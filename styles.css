@@ -7,13 +7,13 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    flex: 1 1 60em;
 }
 
 header{
     display: flex;
     border: 0.1em solid lightgray;
     flex-direction: row;
+    flex: 0 0;
 }
 
 .header-side-container{
@@ -76,7 +76,6 @@ main{
     flex-direction: row;
     border: 0.1em solid lightgray;
     flex: 1 1 20em;
-    flex-grow: 5;
 }
 
 .item-container {
